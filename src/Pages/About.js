@@ -4,14 +4,14 @@ import Footer from '../Components/Footer.js';
 import Jumbotron from '../Components/Jumbotron.js';
 
 
-export default class Home extends Component {
+export default class About extends Component {
 	render(){
 		return(
 			<div>
 				<Navbar />
-				<Jumbotron title="Welcome" subtitle="Stay healthy!" />
+				<Jumbotron title="About" subtitle="Stay healthy!" />
 				<div className="container">	
-					<h2>Welcome to Trending Health</h2>
+					<h2>About</h2>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 						</p>
