@@ -8,8 +8,7 @@ export default class Contact extends Component {
 	render(){
 		return(
 			<div>
-				<Navbar />
-				<Jumbotron title="Contact" subtitle="Stay healthy!" />
+				
 				<div className="container">	
 					<h2>Contact Us</h2>
 					<p>
@@ -19,7 +18,7 @@ export default class Contact extends Component {
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac odio tempor orci dapibus ultrices in iaculis. Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque. Nulla facilisi morbi tempus iaculis. Scelerisque eu ultrices vitae auctor eu augue ut lectus. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Nec sagittis aliquam malesuada bibendum arcu vitae elementum. Leo urna molestie at elementum eu facilisis sed odio. Sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus. Nunc lobortis mattis aliquam faucibus purus in. Orci nulla pellentesque dignissim enim sit amet venenatis. Id ornare arcu odio ut. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus. Vitae auctor eu augue ut lectus arcu bibendum at varius. Duis at tellus at urna. Purus sit amet luctus venenatis lectus.
 						</p>
 					</div>
-					<Footer />	
+						
 			</div>
 			);
 	}
