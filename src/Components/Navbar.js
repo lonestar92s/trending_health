@@ -4,8 +4,10 @@ import './Navbar.css';
 
 
 export default class Navbar extends Component {
+  
     render() {
         return (
+	
 
         <nav className="navbar navbar-expand-md mb-4">
 		    <Link className="navbar-brand" to="/">Trending Health</Link>

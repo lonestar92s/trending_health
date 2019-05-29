@@ -1,5 +1,6 @@
 .navbar-brand {
   color: #333;
+
 }
 
 a {
@@ -8,6 +9,8 @@ a {
 }
 
 nav{
-	margin-left: 15px;
- 
+	background-color: #6CD794;
+}
+.nav-link:hover, .navbar-brand:hover{
+	color: white;
 }
