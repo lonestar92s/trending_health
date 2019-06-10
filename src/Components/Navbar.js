@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import Logo from './Logo.png'
 
 
 export default class Navbar extends Component {
@@ -10,7 +11,7 @@ export default class Navbar extends Component {
 	
 
         <nav className="navbar navbar-expand-md mb-4">
-		    <Link className="navbar-brand" to="/">Trending Health</Link>
+		    <Link className="navbar-brand" to="/"><img src={Logo} alt="Logo" /></Link>
 		     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 		        <span className="navbar-toggler-icon"></span>
 		      </button>
