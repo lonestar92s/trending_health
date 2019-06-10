@@ -16,9 +16,12 @@ a {
 
 nav{
 	background-color: white;
+	height: 50px
+
 
 }
 .nav-link:hover, .navbar-brand:hover{
 	color: black;
 }
+
 
