@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Navbar from '../Components/Navbar.js';
-import Footer from '../Components/Footer.js'
+
+
 import './Home.css'
 
 
