@@ -18,6 +18,8 @@
 
 .Links{
     list-style: none;
+    margin-right: 75px;
+    font-size: 35px
 }
 .footer-item{
     display: inline-flex;
